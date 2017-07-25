@@ -2,7 +2,7 @@
 
 A test e-commerce application to demonstrate features of various development technologies.
 
-It has front-end and back-end websites with several APIs (Microservices)
+It has frontend and backend websites with several APIs (Microservices)
 
 # General design considerations
 
