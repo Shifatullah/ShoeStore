@@ -2,7 +2,7 @@
 
 A test e-commerce application to demonstrate features of various development technologies.
 
-It has front-end and back-end websites with several APIs (micro services)
+It has front-end and back-end websites with several APIs (Microservices)
 
 # General design considerations
 
@@ -11,16 +11,16 @@ It has front-end and back-end websites with several APIs (micro services)
 - Api Gateway
 - Domain Driven Design
 - Behavior Driven Design
+- CQRS
 
 # Front-end website
 
 - Home, search results, and product details pages will be server side
-- Category list and check out pages will be Angular 4 based
+- Category list will use Angular.JS 4.1 and LESS based CSS
+- Checkout page will use React.JS and SASS based CSS
 - Asp.Net Mvc
 - Twitter bootstrap
-- LESS
-- Entity Framework (code first)
-- Sql Server
+- Communicates with Listing, Basket and Payments APIs
 
 # Back-end website (internal/private)
 
@@ -28,17 +28,23 @@ It has front-end and back-end websites with several APIs (micro services)
 - Asp.Net Mvc
 - Angular 4.1
 
-# Product API
+# Product API (internal/private)
 
 - Asp.Net Web Api
 - Entity Framework (code first)
 - Sql Server
 
-# Checkout API
+# Listing API (public)
 
-[TODO]
+- MongoDB
+- Express.JS
+- Node.JS
 
-# Payments API
+# Basket API (public)
+
+- Java technology stack
+
+# Payments API (public)
 
 [TODO]
 
@@ -48,4 +54,4 @@ It has front-end and back-end websites with several APIs (micro services)
 
 # API Gateway
 
-[TODO]
+- ASP.Net Web Api
