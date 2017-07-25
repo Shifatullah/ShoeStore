@@ -6,6 +6,7 @@ It has frontend and backend websites with several APIs (Microservices)
 
 # General design considerations
 
+- Reference Architecture
 - Responsive design
 - Microservices
 - Api Gateway
