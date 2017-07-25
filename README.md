@@ -1,5 +1,4 @@
-# shoestore
-Shoe Store (test application)
+# Shoe Store (test application)
 
 A test e-commerce application to demonstrate features of various development technologies.
 
