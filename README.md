@@ -14,7 +14,7 @@ It has front-end and back-end websites with several APIs (Microservices)
 - CQRS
 - Event Sourcing
 
-# Front-end website
+# Frontend website
 
 - Home, search results, and product details pages will be server side
 - Category list will use Angular.JS 4.1 and LESS based CSS
@@ -23,7 +23,7 @@ It has front-end and back-end websites with several APIs (Microservices)
 - Twitter bootstrap
 - Communicates with Listing, Basket and Payments APIs
 
-# Back-end website (internal/private)
+# Backend website (internal/private)
 
 - Single page application
 - Asp.Net Mvc
