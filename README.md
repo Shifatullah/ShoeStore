@@ -13,6 +13,7 @@ It has front-end and back-end websites with several APIs (Microservices)
 - Behavior Driven Design
 - CQRS
 - Event Sourcing
+- Fluent bootstrapping
 
 # Frontend website
 
