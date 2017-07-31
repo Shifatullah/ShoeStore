@@ -1,5 +1,7 @@
 # Shoe Store (test application)
 
+[![Join the chat at https://gitter.im/ShoeStore/Lobby](https://badges.gitter.im/ShoeStore/Lobby.svg)](https://gitter.im/ShoeStore/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A test e-commerce application to demonstrate features of various development technologies.
 
 It has frontend and backend websites with several APIs (Microservices)
