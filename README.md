@@ -2,6 +2,10 @@
 
 [![Join the chat at https://gitter.im/ShoeStore/Lobby](https://badges.gitter.im/ShoeStore/Lobby.svg)](https://gitter.im/ShoeStore/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+This project is under development.
+
+Frontend wireframes available at https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
+
 A test e-commerce application to demonstrate features of various development technologies.
 
 It has frontend and backend websites with several APIs (Microservices)
