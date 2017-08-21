@@ -1,5 +1,11 @@
 # Shoe Store (test application)
 
+[![Join the chat at https://gitter.im/ShoeStore/Lobby](https://badges.gitter.im/ShoeStore/Lobby.svg)](https://gitter.im/ShoeStore/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+This project is under development.
+
+Frontend wireframes available at https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
+
 A test e-commerce application to demonstrate features of various development technologies.
 
 It has frontend and backend websites with several APIs (Microservices)
@@ -8,8 +14,7 @@ It has frontend and backend websites with several APIs (Microservices)
 
 - Reference Architecture
 - Responsive design
-- Microservices
-- Api Gateway
+- Microservices / Api Gateway
 - Domain Driven Design
 - Behavior Driven Design
 - CQRS
@@ -18,9 +23,9 @@ It has frontend and backend websites with several APIs (Microservices)
 
 # Frontend website
 
-- Home, search results, and product details pages will be server side
-- Category list will use Angular.JS 4.1 and LESS based CSS
-- Checkout page will use React.JS and SASS based CSS
+- Angular.JS 4
+- LESS to produce CSS3
+- HTML5
 - Asp.Net Mvc
 - Twitter bootstrap
 - Communicates with Listing, Basket and Payments APIs
@@ -33,19 +38,15 @@ It has frontend and backend websites with several APIs (Microservices)
 
 # Product API (internal/private)
 
-- Asp.Net Web Api
-- Entity Framework (code first)
-- Sql Server
+[TODO]
 
 # Listing API (public)
 
-- MongoDB
-- Express.JS
-- Node.JS
+[TODO]
 
 # Basket API (public)
 
-- Java technology stack
+[TODO]
 
 # Payments API (public)
 
@@ -57,4 +58,4 @@ It has frontend and backend websites with several APIs (Microservices)
 
 # API Gateway
 
-- ASP.Net Web Api
+[TODO]
