@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Framework.Domain">
+      <HintPath>..\..\..\..\..\Framework\DotNet\Framework.Domain\bin\Debug\netstandard2.0\Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="RangeHelpers">
+      <HintPath>..\..\..\..\..\RangeHelpers\RangeHelpers\bin\Debug\RangeHelpers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
