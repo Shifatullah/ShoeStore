@@ -26,19 +26,21 @@ It has frontend and backend websites with several APIs (Microservices)
 - Angular.JS 4
 - LESS to produce CSS3
 - HTML5
-- Asp.Net Mvc
+- .Net Core 2.0 - Asp.Net Mvc
 - Twitter bootstrap
 - Communicates with Listing, Basket and Payments APIs
 
 # Backend website (internal/private)
 
 - Single page application
-- Asp.Net Mvc
+- .Net Core 2.0 - Angular
 - Angular 4.1
 
 # Product API (internal/private)
 
-[TODO]
+- .Net Core 2.0 - Web Api
+- Entity Framework Core 2.0
+- Sql Server
 
 # Listing API (public)
 
