@@ -23,6 +23,7 @@ It has frontend and backend websites with several APIs (Microservices)
 
 # Frontend website
 
+- Demo: http://shoestorefrontend.azurewebsites.net/home
 - Angular.JS 4
 - LESS to produce CSS3
 - HTML5
@@ -32,6 +33,7 @@ It has frontend and backend websites with several APIs (Microservices)
 
 # Backend website (internal/private)
 
+- Demo: http://shoestorebackend.azurewebsites.net/home
 - Single page application
 - .Net Core 2.0 - Angular
 - Angular 4.1
