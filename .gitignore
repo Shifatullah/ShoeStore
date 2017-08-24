@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Backend/DotNetCore/Angular/.vs/ShoeStore.Backend/v15
+/Frontend/DotNetCore/AspNetMvc/.vs/ShoeStore.Frontend/v15

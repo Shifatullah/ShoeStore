@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoeStore.Frontend", "ShoeStore.Frontend\ShoeStore.Frontend.csproj", "{F1435805-1487-4EAF-AD0D-D355BABCFE71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1435805-1487-4EAF-AD0D-D355BABCFE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1435805-1487-4EAF-AD0D-D355BABCFE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1435805-1487-4EAF-AD0D-D355BABCFE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1435805-1487-4EAF-AD0D-D355BABCFE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2924F20-81BF-4206-B8FB-3703BA24A27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2924F20-81BF-4206-B8FB-3703BA24A27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2924F20-81BF-4206-B8FB-3703BA24A27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2924F20-81BF-4206-B8FB-3703BA24A27C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3B2100D-E73D-4A86-A6F0-517A65FD89DC}
+	EndGlobalSection
+EndGlobal

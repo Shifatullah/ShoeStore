@@ -1,0 +1,1 @@
+C:\Users\shifatullah\Google Drive\DotNet\ShoeStore\Frontend\DotNetCore\AspNetMvc\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
