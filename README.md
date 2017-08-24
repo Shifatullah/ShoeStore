@@ -38,6 +38,10 @@ It has frontend and backend websites with several APIs (Microservices)
 - .Net Core 2.0 - Angular
 - Angular 4.1
 
+# Admin API (internal/private/more secured)
+
+[TODO]
+
 # Product API (internal/private)
 
 - .Net Core 2.0 - Web Api
