@@ -2,5 +2,22 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Backend/DotNetCore/Angular/.vs/ShoeStore.Backend/v15
-/Frontend/DotNetCore/AspNetMvc/.vs/ShoeStore.Frontend/v15
+/.vs
+/Backend/DotNetCore/Angular/.vs
+/Backend/DotNetCore/Angular/obj
+/Backend/DotNetCore/Angular/bin
+/Frontend/DotNetCore/AspNetMvc/obj
+/Frontend/DotNetCore/AspNetMvc/.vs
+/Frontend/DotNetCore/AspNetMvc/obj
+/Frontend/DotNetCore/AspNetMvc/bin
+/Frontend/DotNetCore/AspNetMvc/ShoeStore.Frontend/obj
+/Frontend/DotNetCore/AspNetMvc/ShoeStore.Frontend/bin
+/Products/DotNetCore/WebApi/.vs
+/Products/DotNetCore/WebApi/obj
+/Products/DotNetCore/WebApi/bin
+/Products/DotNetCore/WebApi/ShoeStore.Products.Domain/bin
+/Products/DotNetCore/WebApi/ShoeStore.Products.Domain/obj
+/Products/DotNetCore/WebApi/ShoeStore.Products.Infrastructure.Data/bin
+/Products/DotNetCore/WebApi/ShoeStore.Products.Infrastructure.Data/obj
+/Products/DotNetCore/WebApi/ShoeStore.ProductsApi/bin
+/Products/DotNetCore/WebApi/ShoeStore.ProductsApi/obj
