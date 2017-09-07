@@ -34,9 +34,11 @@ It has frontend and backend websites with several APIs (Microservices)
 # Backend website (internal/private)
 
 - Demo: http://shoestorebackend.azurewebsites.net/home
+
+- *DotNet Angular Demo Direct Link: http://shoestorebackend-dotnet-angular.azurewebsites.net*
 - Single page application
-- .Net Core 2.0 - Angular
-- Angular 4.1
+- DotNet Framework 4.6.1
+- Angular 4.3.6
 
 # Users API (internal/private/more secured)
 
