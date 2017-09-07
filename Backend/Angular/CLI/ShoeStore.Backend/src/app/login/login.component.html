@@ -1,0 +1,14 @@
+<div class="container">
+  <form>
+    <h3>Enter credentials</h3>
+    <div class="form-group">
+      <label for="user">User</label>
+      <input #user name="user" class="form-control"/>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input #password name="password" type="password" class="form-control" />
+    </div>
+    <button (click)="login(user, password)" class="btn">Login</button>
+  </form>
+</div>

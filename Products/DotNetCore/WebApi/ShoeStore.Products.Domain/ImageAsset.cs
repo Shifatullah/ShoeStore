@@ -7,8 +7,7 @@ namespace ShoeStore.Products.Domain
 {
     public class ImageAsset : Asset
     {
-        public int AssetId { get; set; }
-
+        public int AssetId { get; set; }        
         public ImageSize Size { get; set; }
     }
 }

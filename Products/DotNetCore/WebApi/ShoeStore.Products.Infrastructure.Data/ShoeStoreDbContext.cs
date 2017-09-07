@@ -5,13 +5,13 @@ using System.Configuration;
 
 namespace ShoeStore.Products.Infrastructure.Data
 {
-    public class ShoeStoreDbContext : DbContext
+    public class ProductsDbContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
-            base.OnConfiguring(optionsBuilder);
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    //optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
+        //    base.OnConfiguring(optionsBuilder);
+        //}
 
         public DbSet<Product> Products { get; set; }
     }

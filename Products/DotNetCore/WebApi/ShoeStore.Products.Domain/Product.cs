@@ -1,5 +1,6 @@
 ﻿using Framework.Domain;
 using System;
+using System.Collections.Generic;
 
 namespace ShoeStore.Products.Domain
 {
@@ -15,5 +16,7 @@ namespace ShoeStore.Products.Domain
         public int Stock { get; set; }
         public int CategoryId { get; set; }
         public AuditInfo AuditInfo { get; set; }
+        public List<ProductPrice> ProductPrices { get; set; }
+        public List<ProductAsset> ProductAssets { get; set; }
     }
 }

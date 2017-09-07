@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Framework.Domain;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ShoeStore.Products.Domain
 {
-    public class AuditInfo
+    public class AuditInfo : IValueObject
     {
         public DateTimeOffset CreatedOn { get; set; }
         public string CreatedBy { get; set; }

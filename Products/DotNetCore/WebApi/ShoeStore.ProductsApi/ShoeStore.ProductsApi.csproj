@@ -16,4 +16,15 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShoeStore.Products.Domain\ShoeStore.Products.Domain.csproj" />
+    <ProjectReference Include="..\ShoeStore.Products.Infrastructure.Data\ShoeStore.Products.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Framework.Domain">
+      <HintPath>..\..\..\..\..\Framework\DotNet\Framework.Domain\bin\Debug\netstandard2.0\Framework.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

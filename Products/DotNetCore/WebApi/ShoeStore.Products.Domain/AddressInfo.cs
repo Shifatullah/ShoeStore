@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Framework.Domain;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ShoeStore.Products.Domain
 {
-    public class AddressInfo
+    public class AddressInfo : IValueObject
     {
         public string AddressLine1 { get; set; }
         public string AddressLine2 { get; set; }
