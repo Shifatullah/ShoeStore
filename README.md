@@ -8,37 +8,15 @@ Frontend wireframes available at https://app.moqups.com/shifatullah/ZiU0oVmTf5/v
 
 A test e-commerce application to demonstrate features of various development technologies.
 
-It has frontend and backend websites with several APIs (Microservices)
-
-# General design considerations
-
-- Reference Architecture
-- Responsive design
-- Microservices / Api Gateway
-- Domain Driven Design
-- Behavior Driven Design
-- CQRS
-- Event Sourcing
-- Fluent bootstrapping
+It has frontend and backend websites with several APIs.
 
 # Frontend website
 
-- Demo: http://shoestorefrontend.azurewebsites.net/home
-- Angular.JS 4
-- LESS to produce CSS3
-- HTML5
-- .Net Core 2.0 - Asp.Net Mvc
-- Twitter bootstrap
-- Communicates with Listing, Basket and Payments APIs
+[TODO]
 
 # Backend website (internal/private)
 
-- Demo: http://shoestorebackend.azurewebsites.net/home
-
-- *DotNet Angular Demo Direct Link: http://shoestorebackend-dotnet-angular.azurewebsites.net*
-- Single page application
-- DotNet Framework 4.6.1
-- Angular 4.3.6
+[TODO]
 
 # Users API (internal/private/more secured)
 
@@ -46,9 +24,7 @@ It has frontend and backend websites with several APIs (Microservices)
 
 # Product API (internal/private)
 
-- .Net Core 2.0 - Web Api
-- Entity Framework Core 2.0
-- Sql Server
+[TODO]
 
 # Listing API (public)
 
