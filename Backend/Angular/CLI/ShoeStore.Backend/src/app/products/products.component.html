@@ -1,0 +1,4 @@
+<h2>Products</h2>
+<button type="button" (click)="fetchProducts()">Fetch Products</button>
+<div *ngIf="loading">loading...</div>
+<pre>{{data | json}}</pre>
