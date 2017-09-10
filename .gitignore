@@ -37,8 +37,6 @@
 /Products/DotNet/WebApi/.vs
 /Users/DotNet/WebApi/.vs
 /Products/DotNet/WebApi/packages/EntityFramework.6.1.3
-/Products/DotNet/WebApi/ShoeStore.ProductsApi/Web.Release.config
-/Products/DotNet/WebApi/ShoeStore.ProductsApi/Web.Debug.config
 /Products/DotNet/WebApi/ShoeStore.Products.Infrastructure.Data.EF/App.config
 /Products/DotNet/WebApi/ShoeStore.ProductsApi.Tests/bin/Debug
 /Products/DotNet/WebApi/ShoeStore.Products.Infrastructure.Data.EF/bin/Debug
@@ -47,3 +45,15 @@
 /Products/DotNet/WebApi/ShoeStore.Products.Application/obj/Debug
 /Products/DotNet/WebApi/ShoeStore.ProductsApi/App_Data/ShoeStoreProductsDbContext_log.ldf
 /Products/DotNet/WebApi/ShoeStore.ProductsApi/App_Data/ShoeStoreProductsDbContext.mdf
+/Products/DotNet/WebApi/ShoeStore.Products.Application/bin/Release
+/Products/DotNet/WebApi/ShoeStore.Products.Application/obj/Release
+/Products/DotNet/WebApi/ShoeStore.Products.Domain/bin/Release
+/Products/DotNet/WebApi/ShoeStore.Products.Domain/obj/Release
+/Products/DotNet/WebApi/ShoeStore.Products.Infrastructure.Data.EF/bin/Release
+/Products/DotNet/WebApi/ShoeStore.Products.Infrastructure.Data.EF/obj/Release
+/Products/DotNet/WebApi/ShoeStore.ProductsApi/obj/Release
+/Products/DotNet/WebApi/ShoeStore.ProductsApi/Properties/PublishProfiles
+/Products/DotNet/WebApi/ShoeStore.ProductsApi.Tests/obj/Release
+/Users/DotNet/WebApi/ShoeStore.UsersApi/obj/Release
+/Users/DotNet/WebApi/ShoeStore.UsersApi.Tests/obj/Release
+/Products/DotNet/WebApi/ShoeStore.ProductsApi.Tests/bin/Release
