@@ -57,3 +57,6 @@
 /Users/DotNet/WebApi/ShoeStore.UsersApi/obj/Release
 /Users/DotNet/WebApi/ShoeStore.UsersApi.Tests/obj/Release
 /Products/DotNet/WebApi/ShoeStore.ProductsApi.Tests/bin/Release
+/Products/DotNet/WebApi/ShoeStore.ProductsApi/Web.Release.config
+/Products/DotNet/WebApi/ShoeStore.ProductsApi/Web.Debug.config
+/Products/DotNet/WebApi/ShoeStore.ProductsApi/ApplicationInsights.config
