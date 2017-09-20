@@ -11,17 +11,19 @@ import { UserItemComponent } from './user-item/user-item.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { ProductsComponent } from './products/products.component';
 import { HomeComponent } from './home/home.component';
+import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'login', component: LoginComponent },
     { path: 'home', component: HomeComponent },
-    { path: 'products', component: ProductsComponent }
+    { path: 'products', component: ProductsComponent },
+    { path: 'product', component: ProductComponent }
 ];
 
 @NgModule({
   declarations: [
-    AppComponent, LoginComponent, UserItemComponent, UserListComponent, ProductsComponent, HomeComponent
+    AppComponent, LoginComponent, UserItemComponent, UserListComponent, ProductsComponent, HomeComponent, ProductComponent
   ],
   imports: [
     BrowserModule,

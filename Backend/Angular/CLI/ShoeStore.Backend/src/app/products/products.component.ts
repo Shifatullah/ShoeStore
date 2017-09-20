@@ -14,6 +14,8 @@ export class ProductsComponent implements OnInit {
 
     constructor(private http: Http) {
         this._http = http;
+        this.loading = false;
+        this.fetchProducts();
     }
 
     fetchProducts(): void {

@@ -1,4 +1,24 @@
 <h2>Products</h2>
-<button type="button" (click)="fetchProducts()">Fetch Products</button>
 <div *ngIf="loading">loading...</div>
-<pre>{{data | json}}</pre>
+<div *ngIf="data" class="container">  
+  <div class="row">    
+    <div class="col-md-1">Code</div>
+    <div class="col-md-2">Name</div>
+    <div class="col-md-2">Short Description</div>
+    <div class="col-md-1">Cost</div>
+    <div class="col-md-1">Stock</div>
+    <div class="col-md-2">CreatedOn</div>
+    <div class="col-md-1">CreatedBy</div>
+    <div class="col-md-2">Actions</div>
+  </div>
+    <div *ngFor="let product of data" class="row">
+      <div class="col-md-1">{{product.Code}}</div>
+      <div class="col-md-2">{{product.Name}}</div>
+      <div class="col-md-2">{{product.ShortDescription}}</div>
+      <div class="col-md-1">{{product.Cost}}</div>
+      <div class="col-md-1">{{product.Stock}}</div>
+      <div class="col-md-2">{{product.AuditInfo.CreatedOn | date: "medium"}}</div>
+      <div class="col-md-1">{{product.AuditInfo.CreatedBy }}</div>
+      <div class="col-md-2"><a [routerLink]="['/product/', product.Id]">View</a> <a>Edit</a> <a>Delete</a></div>
+    </div>  
+</div>
