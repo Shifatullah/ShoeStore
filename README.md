@@ -16,7 +16,7 @@ It has frontend and backend websites with several APIs.
 
 # Backend website (internal/private)
 
-Implementation 1 (in-progress) <a href="http://shoestorebackend-angular-jqueryui.azurewebsites.net" target="_blank">Backend in Angular & JQuery UI</a>
+Implementation 1 (in-progress) <a target="_blank" href="http://shoestorebackend-angular-jqueryui.azurewebsites.net">Backend in Angular & JQuery UI</a>
 - Angular 4
 - JQuery UI
 - Twitter Bootstrap
@@ -27,7 +27,7 @@ Implementation 1 (in-progress) <a href="http://shoestorebackend-angular-jqueryui
 
 # Product API (internal/private)
 
-Implementation 1 (in-progress) <a href="http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/products" target="_blank">Products Web API in ASP.Net Web API</a>
+Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/products">Products Web API in ASP.Net Web API</a>
 - ASP.Net Web API
 - Entity Framework 6
 - Azure SQL Server
