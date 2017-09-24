@@ -4,9 +4,9 @@
 
 This project is under development.
 
-Frontend wireframes available at https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
-
 A test e-commerce application to demonstrate features of various development technologies.
+
+Frontend wireframes available at https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
 
 It has frontend and backend websites with several APIs.
 
@@ -16,7 +16,10 @@ It has frontend and backend websites with several APIs.
 
 # Backend website (internal/private)
 
-[TODO]
+Implementation 1 (in-progress) http://shoestorebackend-angular-jqueryui.azurewebsites.net
+- Angular 4
+- JQuery UI
+- Twitter Bootstrap
 
 # Users API (internal/private/more secured)
 
@@ -24,7 +27,10 @@ It has frontend and backend websites with several APIs.
 
 # Product API (internal/private)
 
-[TODO]
+Implementation 1 (in-progress) http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/products
+- ASP.Net Web API
+- Entity Framework 6
+- Azure SQL Server
 
 # Listing API (public)
 
