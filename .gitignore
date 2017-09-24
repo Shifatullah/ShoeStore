@@ -65,3 +65,5 @@
 /Framework/DotNet/Framework.Data/obj/Debug
 /Framework/DotNet/Framework.Domain/bin/Debug/netstandard2.0
 /Framework/DotNet/Framework.Domain/obj
+/Users/DotNet/WebApi/ShoeStore.UsersApi.Tests/bin/Debug
+/Users/DotNet/WebApi/ShoeStore.UsersApi/Properties/PublishProfiles

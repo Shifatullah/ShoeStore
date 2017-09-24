@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http, Response } from '@angular/http';
 
 @Component({
   selector: 'app-login',
@@ -7,13 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _http: Http) { }
 
   ngOnInit() {
   }
 
   public login(user: HTMLInputElement, password: HTMLInputElement): boolean {
-      console.log(`Login with user: ${user.value} and password: ${password.value}`);
+      this._http
+          .post('http://shoestoreusers-dotnet-webapi.azurewebsites.net/api/account/login', '{loginName: ' + user + ', password: ' + password + '}')
+          .subscribe((res: Response) => {
+              alert(res.json());
+          });
       return false;     
   }
 
