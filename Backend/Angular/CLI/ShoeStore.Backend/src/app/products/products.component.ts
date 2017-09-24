@@ -18,7 +18,7 @@ export class ProductsComponent implements OnInit {
         this.fetchProducts();
     }
 
-    fetchProducts(): void {
+    public fetchProducts(): void {
         this.loading = true;        
         this._http.request('http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/products')
             .subscribe((res: Response) => {

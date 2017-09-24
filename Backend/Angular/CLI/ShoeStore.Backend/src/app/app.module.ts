@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
-import { AlertModule } from 'ngx-bootstrap';
+//import { AlertModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -18,18 +18,18 @@ const routes: Routes = [
     { path: 'login', component: LoginComponent },
     { path: 'home', component: HomeComponent },
     { path: 'products', component: ProductsComponent },
-    { path: 'product', component: ProductComponent }
+    { path: 'product/:id', component: ProductComponent }
 ];
 
 @NgModule({
   declarations: [
-    AppComponent, LoginComponent, UserItemComponent, UserListComponent, ProductsComponent, HomeComponent, ProductComponent
+    AppComponent , LoginComponent, UserItemComponent, UserListComponent, ProductsComponent, HomeComponent, ProductComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AlertModule.forRoot(),
+    //AlertModule.forRoot(),
     RouterModule.forRoot(routes),
   ],
   providers: [],

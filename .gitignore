@@ -60,3 +60,8 @@
 /Products/DotNet/WebApi/ShoeStore.ProductsApi/Web.Release.config
 /Products/DotNet/WebApi/ShoeStore.ProductsApi/Web.Debug.config
 /Products/DotNet/WebApi/ShoeStore.ProductsApi/ApplicationInsights.config
+/Backend/Javascript/Jquery/.vs
+/Framework/DotNet/.vs/Framework/v15
+/Framework/DotNet/Framework.Data/obj/Debug
+/Framework/DotNet/Framework.Domain/bin/Debug/netstandard2.0
+/Framework/DotNet/Framework.Domain/obj

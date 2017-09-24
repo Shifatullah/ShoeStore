@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-  login(user: HTMLInputElement, password: HTMLInputElement): boolean {
+  public login(user: HTMLInputElement, password: HTMLInputElement): boolean {
       console.log(`Login with user: ${user.value} and password: ${password.value}`);
       return false;     
   }
