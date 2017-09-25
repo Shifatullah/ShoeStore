@@ -8,7 +8,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using ShoeStore.UsersApi.Providers;
+//using ShoeStore.UsersApi.Providers;
 using ShoeStore.UsersApi.Models;
 
 namespace ShoeStore.UsersApi

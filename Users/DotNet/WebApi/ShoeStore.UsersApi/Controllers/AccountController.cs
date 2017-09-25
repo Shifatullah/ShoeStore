@@ -14,7 +14,7 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using ShoeStore.UsersApi.Models;
-using ShoeStore.UsersApi.Providers;
+//using ShoeStore.UsersApi.Providers;
 using ShoeStore.UsersApi.Results;
 using System.Web.Security;
 
@@ -26,14 +26,15 @@ namespace ShoeStore.UsersApi.Controllers
     {
 
         // POST api/Account/Login
+        [HttpPost]
         [Route("Login")]
         [AllowAnonymous]
-        public IHttpActionResult Login(string loginName, string password)
+        public IHttpActionResult Login(LoginModel loginModel)
         {
-            if(loginName == "guest" && password == "canon")
+            if(loginModel.loginName == "guest" && loginModel.password == "canon")
             {
                 // Create the ticket and stuff it in a cookie
-                FormsAuthentication.SetAuthCookie(loginName, false);                
+                FormsAuthentication.SetAuthCookie(loginModel.loginName, false);                
             }
             return Ok();                           
         }
