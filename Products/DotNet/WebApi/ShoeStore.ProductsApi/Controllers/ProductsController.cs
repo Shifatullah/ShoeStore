@@ -12,6 +12,7 @@ namespace ShoeStore.ProductsApi.Controllers
     public class ProductsController : ApiController
     {
         // GET: api/Products
+        [Authorize]
         public IEnumerable<Product> Get()
         {
             return new ProductService().GetAllProducts();

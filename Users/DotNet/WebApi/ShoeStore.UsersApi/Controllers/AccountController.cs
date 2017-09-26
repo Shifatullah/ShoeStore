@@ -34,7 +34,10 @@ namespace ShoeStore.UsersApi.Controllers
             if(loginModel.loginName == "guest" && loginModel.password == "canon")
             {
                 // Create the ticket and stuff it in a cookie
-                FormsAuthentication.SetAuthCookie(loginModel.loginName, false);                
+                FormsAuthentication.SetAuthCookie(loginModel.loginName, false);
+                var cookie = System.Web.HttpContext.Current.Response.Cookies[FormsAuthentication.FormsCookieName];
+                cookie.Domain = "shoestoreusers-dotnet-webapi.azurewebsites.net";
+                cookie.Path = "/";
             }
             return Ok();                           
         }
