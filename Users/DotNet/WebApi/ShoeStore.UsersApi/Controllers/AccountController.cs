@@ -36,8 +36,11 @@ namespace ShoeStore.UsersApi.Controllers
                 // Create the ticket and stuff it in a cookie
                 FormsAuthentication.SetAuthCookie(loginModel.loginName, false);
                 var cookie = System.Web.HttpContext.Current.Response.Cookies[FormsAuthentication.FormsCookieName];
-                cookie.Domain = "shoestoreusers-dotnet-webapi.azurewebsites.net";
                 cookie.Path = "/";
+                cookie.Secure = false;
+                //cookie.Domain = "shoestoreusers-dotnet-webapi.azurewebsites.net";                
+                cookie.Domain = "shoestorebackend-angular-jqueryui.azurewebsites.net";
+                return Ok(cookie.Value);
             }
             return Ok();                           
         }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import { Http, Response, RequestOptions } from '@angular/http';
 
 @Component({
     selector: 'app-products',
@@ -19,8 +19,10 @@ export class ProductsComponent implements OnInit {
     }
 
     public fetchProducts(): void {
-        this.loading = true;        
-        this._http.request('http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/products')
+        this.loading = true;
+        let options = new RequestOptions();
+        options.withCredentials = true;
+        this._http.get('http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/products', options)
             .subscribe((res: Response) => {
                 this.loading = false;                
                 this.data = res.json();                

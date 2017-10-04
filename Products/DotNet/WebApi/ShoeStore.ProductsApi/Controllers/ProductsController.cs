@@ -11,7 +11,7 @@ namespace ShoeStore.ProductsApi.Controllers
 {
     public class ProductsController : ApiController
     {
-        // GET: api/Products
+        // GET: api/Products        
         [Authorize]
         public IEnumerable<Product> Get()
         {
@@ -19,6 +19,7 @@ namespace ShoeStore.ProductsApi.Controllers
         }
 
         // GET: api/Products/5
+        [Authorize]
         public Product Get(int id)
         {
             return new ProductService().FindProduct(id);

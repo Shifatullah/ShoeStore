@@ -32,5 +32,11 @@ namespace ShoeStore.ProductsApi
             telemetry.TrackException(exc);
             throw exc;
         }
+
+        protected void Application_EndRequest(Object sender, EventArgs e)
+        {
+            HttpApplication context = (HttpApplication)sender;
+            context.Response.SuppressFormsAuthenticationRedirect = true;
+        }
     }
 }
