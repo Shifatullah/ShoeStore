@@ -21,8 +21,13 @@ export class LoginComponent implements OnInit {
         options.withCredentials = true;
         this._http.post('http://shoestoreusers-dotnet-webapi.azurewebsites.net/api/account/login', JSON.stringify({ loginName: user.value, password: password.value }), options)
             .subscribe((res: Response) => {
-                //alert('login succeeded');
-                $.cookie('.ASPXAUTH', res.text);
+                var cookieValue = res.text();
+                cookieValue = cookieValue.replace(/['"]+/g, '')
+                $.cookie('.ASPXAUTH', cookieValue);
+                this._http.post('http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/authenticate/authcookie', JSON.stringify({ Value: $.cookie('.ASPXAUTH') }), options)
+                //this._http.post('http://localhost:49997/api/authenticate/authcookie', JSON.stringify({ Value: $.cookie('.ASPXAUTH') }), options)                
+                    .subscribe((res: Response) => {
+                    });
             });
         return false;
 
