@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Http, Response, RequestOptions, RequestOptionsArgs, Headers } from '@angular/http';
+import { Router } from "@angular/router";
 declare var $: any;
 
 @Component({
@@ -9,7 +10,7 @@ declare var $: any;
 })
 export class LoginComponent implements OnInit {
 
-    constructor(private _http: Http) { }
+    constructor(private _http: Http, private _router: Router) { }
 
     ngOnInit() {
     }
@@ -27,6 +28,7 @@ export class LoginComponent implements OnInit {
                 this._http.post('http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/authenticate/authcookie', JSON.stringify({ Value: $.cookie('.ASPXAUTH') }), options)
                 //this._http.post('http://localhost:49997/api/authenticate/authcookie', JSON.stringify({ Value: $.cookie('.ASPXAUTH') }), options)                
                     .subscribe((res: Response) => {
+                        this._router.navigate(['/'])
                     });
             });
         return false;

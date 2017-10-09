@@ -1,18 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Web.Configuration;
 using System.Web.Http;
+using System.Web.Security;
 
 namespace ShoeStore.ProductsApi.Controllers
 {
     public class ValuesController : ApiController
     {
+        [AllowAnonymous]
         // GET api/values
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
+            //var section = ConfigurationManager.GetSection("system.web/machineKey") as MachineKeySection;
+            //return new string[] { "value1", "value2", section.DecryptionKey, section.Decryption, section.ValidationKey, section.ValidationAlgorithm };
         }
 
         //// GET api/values/5
