@@ -8,9 +8,9 @@ A test e-commerce application to demonstrate features of various development tec
 
 # Progress so far
 
-<a target="_blank" href="http://www.shifatullah.com/blog/IT/4?title=Using_CORS_to_enable_cross_domain_ASP.Net_forms_authentication">Using CORS to enable cross domain ASP.Net forms authentication</a>
+<a target="_blank" href="https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72">Frontend Wireframes</a>
 
-Frontend wireframes available at https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
+<a target="_blank" href="http://www.shifatullah.com/blog/IT/4?title=Using_CORS_to_enable_cross_domain_ASP.Net_forms_authentication">Using CORS to enable cross domain ASP.Net forms authentication</a>
 
 # Components
 
