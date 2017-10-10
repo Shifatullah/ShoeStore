@@ -12,6 +12,8 @@ A test e-commerce application to demonstrate features of various development tec
 
 Frontend wireframes available at https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
 
+# Components
+
 It has frontend and backend websites with several APIs.
 
 # Frontend website
