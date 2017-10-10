@@ -6,6 +6,10 @@ This project is under development.
 
 A test e-commerce application to demonstrate features of various development technologies.
 
+# Progress so far
+
+<a target="_blank" href="http://www.shifatullah.com/blog/IT/4?title=Using_CORS_to_enable_cross_domain_ASP.Net_forms_authentication">Using CORS to enable cross domain ASP.Net forms authentication</a>
+
 Frontend wireframes available at https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
 
 It has frontend and backend websites with several APIs.
@@ -23,14 +27,17 @@ Implementation 1 (in-progress) <a target="_blank" href="http://shoestorebackend-
 
 # Users API (internal/private/more secured)
 
-[TODO]
+Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreusers-dotnet-webapi.azurewebsites.net">Users Web API in ASP.Net Web API</a>
+- ASP.Net Web API
+- Forms Authentication
 
 # Product API (internal/private)
 
-Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreproducts-dotnet-webapi.azurewebsites.net/api/products">Products Web API in ASP.Net Web API</a>
+Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreproducts-dotnet-webapi.azurewebsites.net">Products Web API in ASP.Net Web API</a>
 - ASP.Net Web API
 - Entity Framework 6
 - Azure SQL Server
+- Forms Authentication
 
 # Listing API (public)
 
