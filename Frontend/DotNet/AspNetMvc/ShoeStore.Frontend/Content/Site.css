@@ -1,6 +1,21 @@
-﻿
+﻿body{
+    padding: 0px;
+    margin: 0px;
+}
 
+.header{    
+    background-color: black;
+    color: white;
+}
 
+.logo{
+    float: left;
+    font-weight: bolder;
+}
+
+.search {   
+    float: right;
+}
 
 /*body {
     padding-top: 50px;
