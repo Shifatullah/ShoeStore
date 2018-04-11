@@ -22,10 +22,27 @@ It has frontend and backend websites with several APIs.
 
 # Backend website (internal/private)
 
+Dot Net Implementations:
+
 Implementation 1 (in-progress) <a target="_blank" href="http://shoestorebackend-angular-jqueryui.azurewebsites.net">Backend in Angular & JQuery UI</a>
 - Angular 4
 - JQuery UI
 - Twitter Bootstrap
+
+Java Implementations:
+
+Implementation 2 (in-progress) <a target="_blank" href="https://shoestorebackendtwo-java-springmvc.cfapps.io/">Backend in Spring MVC</a>
+- Spring Boot
+- Spring MVC
+- Spring Security
+- Twitter Bootstrap
+- JPA
+- ThymeLeaf
+- MySQL
+- Maven
+- Java 8
+- Packaging (JAR)
+- Spring Tool Suite
 
 # Users API (internal/private/more secured)
 
