@@ -4,6 +4,8 @@
 
 This project is under development.
 
+# Note: Ignore the code files in the repository. I am now creating separate respository for each component.
+
 A test e-commerce application to demonstrate features of various development technologies.
 
 # Progress so far
@@ -57,6 +59,12 @@ Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreproducts
 - Entity Framework 6
 - Azure SQL Server
 - Forms Authentication
+
+Implementation 2 (in-progress) <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-springmvc">Products RESTfull API in Spring MVC</a>
+- Spring MVC
+- Spring Boot
+- Pivotal Cloud Foundry
+- Demo: https://shoestore-products-springmvc.cfapps.io/api/v1/products
 
 # Listing API (public)
 
