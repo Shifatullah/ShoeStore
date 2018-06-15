@@ -54,13 +54,13 @@ Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreusers-do
 
 # Product API (internal/private)
 
-Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreproducts-dotnet-webapi.azurewebsites.net">Products Web API in ASP.Net Web API</a>
+RESTfull API in ASP.Net Web Api
+- <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-webapi">Repository</a>
 - ASP.Net Web API
-- Entity Framework 6
-- Azure SQL Server
-- Forms Authentication
+- Demo http://shoestore-products-webapi.azurewebsites.net
 
-Implementation 2 (in-progress) <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-springmvc">Products RESTfull API in Spring MVC</a>
+RESTfull API in Spring MVC 
+- <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-springmvc">Repository</a>
 - Spring MVC
 - Spring Boot
 - Pivotal Cloud Foundry
