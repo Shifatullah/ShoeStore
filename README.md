@@ -55,12 +55,12 @@ Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreusers-do
 # Product API (internal/private)
 
 RESTfull API in ASP.Net Web Api
-- Repository <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-webapi"></a>
+- Repository <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-webapi">https://github.com/Shifatullah/shoestore-products-webapi</a>
 - ASP.Net Web API
 - Demo https://shoestoreproductswebapi.azurewebsites.net/api/v1/products
 
 RESTfull API in Spring MVC 
-- Repository <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-springmvc"></a>
+- Repository <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-springmvc">https://github.com/Shifatullah/shoestore-products-springmvc</a>
 - Spring MVC
 - Spring Boot
 - Pivotal Cloud Foundry
