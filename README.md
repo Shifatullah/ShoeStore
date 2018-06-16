@@ -61,6 +61,13 @@ RESTfull API in ASP.Net Web Api
 - Visual Studio
 - Demo in Azure: https://shoestoreproductswebapi.azurewebsites.net/api/v1/products
 
+RESTfull API in ASP.Net Core
+- Repository https://github.com/Shifatullah/shoestore-products-aspnetcore
+- C#
+- ASP.Net Core
+- Visual Studio
+- Demo in Azure: https://shoestoreproductsaspnetcore.azurewebsites.net/api/v1/products
+
 RESTfull API in Spring MVC 
 - Repository https://github.com/Shifatullah/shoestore-products-springmvc
 - Java
