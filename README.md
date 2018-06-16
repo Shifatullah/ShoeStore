@@ -57,14 +57,20 @@ Implementation 1 (in-progress) <a target="_blank" href="http://shoestoreusers-do
 RESTfull API in ASP.Net Web Api
 - Repository <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-webapi">https://github.com/Shifatullah/shoestore-products-webapi</a>
 - ASP.Net Web API
-- Demo https://shoestoreproductswebapi.azurewebsites.net/api/v1/products
+- Demo in Azure: https://shoestoreproductswebapi.azurewebsites.net/api/v1/products
 
 RESTfull API in Spring MVC 
 - Repository <a target="_blank" href="https://github.com/Shifatullah/shoestore-products-springmvc">https://github.com/Shifatullah/shoestore-products-springmvc</a>
 - Spring MVC
 - Spring Boot
 - Pivotal Cloud Foundry
-- Demo: https://shoestore-products-springmvc.cfapps.io/api/v1/products
+- Demo in PCF: https://shoestore-products-springmvc.cfapps.io/api/v1/products
+
+RESTfull API in Express (NodeJS) 
+- Repository https://github.com/Shifatullah/shoestore-products-express
+- NodeJS
+- Express
+- Demo in Azure: https://shoestoreproductsexpress.azurewebsites.net/api/v1/products
 
 # Listing API (public)
 
