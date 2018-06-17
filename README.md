@@ -59,6 +59,7 @@ RESTfull API in ASP.Net Web Api
 - C#
 - ASP.Net Web API
 - Visual Studio
+- Continuous Delivery using Visual Studio Online
 - Demo in Azure: https://shoestoreproductswebapi.azurewebsites.net/api/v1/products
 
 RESTfull API in ASP.Net Core
@@ -74,6 +75,7 @@ RESTfull API in Spring MVC
 - Spring Boot
 - Spring MVC
 - Spring Tool Suite
+- Continuous Delivery using Jenkins
 - Demo in Pivotal Cloud Foundry: https://shoestore-products-springmvc.cfapps.io/api/v1/products
 
 RESTfull API in Express (NodeJS) 
