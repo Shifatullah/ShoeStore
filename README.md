@@ -72,7 +72,7 @@ RESTfull API in ASP.Net Core
 - Visual Studio 2017
 - Demo in Azure: https://shoestoreproductsaspnetcore.azurewebsites.net/api/v1/products
 
-RESTful API in JEE
+RESTful API in JEE (containerless)
 - Repository https://github.com/Shifatullah/shoestore-products-jee
 - Java EE
 - JAX-RS
@@ -81,6 +81,13 @@ RESTful API in JEE
 - Built in Eclipse (Oxygen)
 - Demo in Azure: https://shoestoreproductsjee.azurewebsites.net/api/v1/products
 
+RESTful API in JEE (JBoss Container)
+- Repository https://github.com/Shifatullah/shoestore-products-jboss
+- Java EE
+- JAX-RS
+- JBoss
+- Built in JBoss Developer Studio
+- Demo in OpenShift: http://wildfly-products-shoestore.a3c1.starter-us-west-1.openshiftapps.com/api/v1/products
 
 RESTfull API in Spring MVC 
 - Repository https://github.com/Shifatullah/shoestore-products-springmvc
