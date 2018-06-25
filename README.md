@@ -69,8 +69,18 @@ RESTfull API in ASP.Net Core
 - Repository https://github.com/Shifatullah/shoestore-products-aspnetcore
 - C#
 - ASP.Net Core
-- Visual Studio
+- Visual Studio 2017
 - Demo in Azure: https://shoestoreproductsaspnetcore.azurewebsites.net/api/v1/products
+
+RESTful API in JEE
+- Repository https://github.com/Shifatullah/shoestore-products-jee
+- Java EE
+- JAX-RS
+- Jersey
+- Tomcat
+- Built in Eclipse (Oxygen)
+- Demo in Azure: https://shoestoreproductsjee.azurewebsites.net/api/v1/products
+
 
 RESTfull API in Spring MVC 
 - Repository https://github.com/Shifatullah/shoestore-products-springmvc
