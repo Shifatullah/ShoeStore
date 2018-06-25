@@ -20,7 +20,10 @@ It has frontend and backend websites with several APIs.
 
 # Frontend website
 
-[TODO]
+Web Application in JEE
+- Repository https://github.com/Shifatullah/shoestore-frontend-jee
+- Java EE
+- Demo in Azure: https://shoestorefrontendjee.azurewebsites.net
 
 # Backend website (internal/private)
 
