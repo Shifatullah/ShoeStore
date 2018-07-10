@@ -112,6 +112,13 @@ RESTfull API in Django (Python)
 - Visual Studio
 - Demo in Azure: https://shoestoreproductsdjango.azurewebsites.net/api/v1/products
 
+RESTfull API in Laravel (PHP) 
+- Repository https://github.com/Shifatullah/shoestore-products-laravel
+- PHP
+- Laravel
+- PHPStorm
+- Demo in Azure: https://shoestoreproductslaravel.azurewebsites.net/api/v1/products
+
 # Listing API (public)
 
 [TODO]
