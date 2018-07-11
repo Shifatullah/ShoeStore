@@ -27,7 +27,7 @@ Web Application in JEE
 
 # Backend website (internal/private)
 
-RESTfull API in ASP.Net Web Api
+Website in ASP.Net MVC
 - Repository https://github.com/Shifatullah/shoestore-backend-aspnetmvc
 - C#
 - ASP.Net MVC
