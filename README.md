@@ -27,7 +27,7 @@ Web Application in JEE
 
 # Backend website (internal/private)
 
-Website in ASP.Net MVC
+Web Application in ASP.Net MVC
 - Repository https://github.com/Shifatullah/shoestore-backend-aspnetmvc
 - C#
 - ASP.Net MVC
