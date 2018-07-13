@@ -94,7 +94,7 @@ RESTful API in JEE (JBoss Container)
 - JAX-RS
 - JBoss
 - Built in JBoss Developer Studio
-- Demo in OpenShift: http://wildfly-products-shoestore.a3c1.starter-us-west-1.openshiftapps.com/api/v1/products
+- Demo in OpenShift: http://products-shoestore.a3c1.starter-us-west-1.openshiftapps.com/api/v1/products
 
 RESTfull API in Spring MVC 
 - Repository https://github.com/Shifatullah/shoestore-products-springmvc
