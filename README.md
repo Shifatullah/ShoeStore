@@ -14,6 +14,12 @@ A test e-commerce application to demonstrate features of various development tec
 
 <a target="_blank" href="http://www.shifatullah.com/blog/IT/4?title=Using_CORS_to_enable_cross_domain_ASP.Net_forms_authentication">Using CORS to enable cross domain ASP.Net forms authentication</a>
 
+# ASP.Net Core
+
+| Component | Repository | Demo |
+|---|----|---|
+| Frontend | https://github.com/Shifatullah/shoestore-frontend-aspnetcore | https://shoestore1.azurewebsites.net |
+
 # Components
 
 It has frontend and backend websites with several APIs.
