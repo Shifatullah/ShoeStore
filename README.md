@@ -19,6 +19,13 @@ A test e-commerce application to demonstrate features of various development tec
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend | https://github.com/Shifatullah/shoestore-frontend-aspnetcore | https://shoestore1.azurewebsites.net |
+| Backend | | |
+| Users Api | | |
+| Products Api | | |
+| Listing Api | | |
+| Basket Api | | |
+| Payments Api | | |
+| Notifications Api | | |
 
 # Components
 
