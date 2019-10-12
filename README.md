@@ -12,6 +12,19 @@ A test e-commerce application to demonstrate features of various development tec
 
 <a target="_blank" href="http://www.shifatullah.com/blog/IT/4?title=Using_CORS_to_enable_cross_domain_ASP.Net_forms_authentication">Using CORS to enable cross domain ASP.Net forms authentication</a>
 
+# React
+
+| Component | Repository | Demo |
+|---|----|---|
+| Frontend | | |
+| Admin | https://github.com/Shifatullah/shoestore-admin-reactjs | |
+| Users Api | | |
+| Products Api |  | |
+| Listing Api | | |
+| Basket Api | | |
+| Payments Api | | |
+| Notifications Api | | |
+
 # Dot Net Core
 
 | Component | Repository | Demo |
