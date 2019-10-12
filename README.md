@@ -17,7 +17,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend | https://github.com/Shifatullah/shoestore-frontend-aspnetcore | https://shoestore1.azurewebsites.net |
-| Backend | | |
+| Admin | | |
 | Users Api | | |
 | Products Api | https://github.com/Shifatullah/shoestore-products-aspnetcore | |
 | Listing Api | | |
@@ -30,7 +30,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend | https://github.com/Shifatullah/shoestore-frontend-jee | |
-| Backend | | |
+| Admin | | |
 | Users Api | | |
 | Products Api | https://github.com/Shifatullah/shoestore-products-jee | |
 | Listing Api | | |
@@ -56,7 +56,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend |  | |
-| Backend | | |
+| Admin | | |
 | Users Api | | |
 | Products Api | https://github.com/Shifatullah/shoestore-products-springmvc | |
 | Listing Api | | |
@@ -82,7 +82,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend |  | |
-| Backend | | |
+| Admin | | |
 | Users Api | | |
 | Products Api | https://github.com/Shifatullah/shoestore-products-django | |
 | Listing Api | | |
@@ -95,7 +95,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend |  | |
-| Backend | | |
+| Admin | | |
 | Users Api | | |
 | Products Api | https://github.com/Shifatullah/shoestore-products-laravel | |
 | Listing Api | | |
@@ -108,7 +108,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend |  | |
-| Backend | https://github.com/Shifatullah/shoestore-backend-aspnetmvc | |
+| Admin | https://github.com/Shifatullah/shoestore-backend-aspnetmvc | |
 | Users Api | | |
 | Products Api | https://github.com/Shifatullah/shoestore-products-webapi | |
 | Listing Api | | |
