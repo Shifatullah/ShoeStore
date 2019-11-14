@@ -15,8 +15,8 @@ A test e-commerce application to demonstrate features of various development tec
 # React
 
 | Component | Repository | Demo | Image |
-|---|----|---|
-| Frontend | | |
+|---|----|---|---|
+| Frontend | | | |
 | Admin | https://github.com/Shifatullah/shoestore-admin-reactjs | http://138.68.38.48 | https://hub.docker.com/r/shifatullah/shoestore-admin-reactjs |
 | Users Api | | | |
 | Products Api |  | | |
