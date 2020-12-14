@@ -29,14 +29,16 @@ A test e-commerce application to demonstrate features of various development tec
 
 | Component | Repository | Demo |
 |---|----|---|
-| Frontend | https://github.com/Shifatullah/shoestore-frontend-aspnetcore | https://shoestore1.azurewebsites.net |
-| Admin | | |
+| Frontend | https://github.com/Shifatullah/shoestore-frontend-aspnetcore | |
+| Admin | https://github.com/shifatullah/shoestore-admin-aspnetcoremvc | |
 | Users Api | | |
-| Products Api | https://github.com/Shifatullah/shoestore-products-aspnetcore | http://138.68.36.194/api/v1/catalogues |
+| Products Api | https://github.com/Shifatullah/shoestore-products-aspnetcore | |
 | Listing Api | | |
 | Basket Api | | |
 | Payments Api | | |
 | Notifications Api | | |
+| Api Gateway | https://github.com/shifatullah/shoestore-apigateway-ocelot | |
+| Ideneity Provider | https://github.com/shifatullah/shoestore-identity-identityserver | |
 
 # JEE (Containerless)
 
