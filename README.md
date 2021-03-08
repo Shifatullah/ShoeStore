@@ -29,7 +29,7 @@ A test e-commerce application to demonstrate features of various development tec
 
 | Component | Repository | Demo |
 |---|----|---|
-| Frontend | https://github.com/Shifatullah/shoestore-frontend-aspnetcore | |
+| Frontend | MVC : https://github.com/Shifatullah/shoestore-frontend-aspnetcore Angular : https://github.com/shifatullah/shoestore-frontend-angular | |
 | Admin | MVC : https://github.com/shifatullah/shoestore-admin-aspnetcoremvc Angular : https://github.com/shifatullah/shoestore-admin-angular | |
 | Users Api | | |
 | Products Api | https://github.com/Shifatullah/shoestore-products-aspnetcore | |
