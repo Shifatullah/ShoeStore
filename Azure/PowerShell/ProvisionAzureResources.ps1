@@ -1,8 +1,8 @@
 Write-Host "Provision ShoeStore resources on Azure"
 
-Write-Host $(test)
+Write-Host $env:TEST
 Write-Host "test vars"
-Write-Host '${{ test }}'
+Write-Host '${{ env:TEST }}'
 
 #Write-Host "Import Az module"
 #Install-Module -Name Az -AllowClobber -Scope CurrentUser -Force
