@@ -6,8 +6,10 @@ variables:
 - group: Azure-Shifatullah-Variables
 
 steps:
-- powershell: echo $(one)
-- script: echo 'Hello, world! $(one) '
+- powershell: echo $(test)
+- powershell: echo $env:TEST
+- powershell: echo ${{ test }}
+- script: echo 'Hello, world! $(test) '
   displayName: 'Run a one-line script'
 
 - task: PowerShell@2
