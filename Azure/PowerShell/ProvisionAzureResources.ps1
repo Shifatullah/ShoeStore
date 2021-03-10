@@ -1,6 +1,9 @@
 Write-Host "Provision ShoeStore resources on Azure"
 
-#Connect to Azure using Service Principal
+Write-Host "Import Az module"
+Install-Module -Name Az -AllowClobber -Scope CurrentUser
+
+Write-Host "Connect to Azure using Service Principal"
 [string] $tenant = $env:AzureTenant
 [string] $clientId = $env:ShoeStoreId
 [string] $clientPassword = $env:ShoeStoreSecret
