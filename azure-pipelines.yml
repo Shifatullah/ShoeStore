@@ -23,4 +23,6 @@ steps:
     filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1' 
   env:
     TEST: $(test)
-    AZURETENANT: $(azure-tenant) 
+    AZURETENANT: $(azure-tenant)
+    SHOESTOREID: $(shoestore-id)
+    SHOESTORESECRET: $(shoestore-secret)
