@@ -8,14 +8,14 @@ Write-Host "Connect to Azure using Service Principal"
 #[string] $clientId = $env:ShoeStoreId
 #[string] $clientPassword = 'it is $(one)'
 
-Write-Host '$(variables.one)' 
-Write-Host '$(one)'
-Write-Host '${{ variables.one }}'
-Write-Host '${{ one }}'
-Write-Host $env:ONE 
-Write-Host '$env:ONE'
-Write-Host '$(env:ONE)'
-Write-Host '${{ env:ONE }}'
+Write-Host '$(variables.test)' 
+Write-Host '$(test)'
+Write-Host '${{ variables.test }}'
+Write-Host '${{ test }}'
+Write-Host $env:TEST 
+Write-Host '$env:test'
+Write-Host '$(env:test)'
+Write-Host '${{ env:test }}'
 
 [securestring] $clientPasswordSecure1 = ConvertTo-SecureString -String '$(variables.one)' -AsPlainText -Force
 write-host $clientPasswordSecure1

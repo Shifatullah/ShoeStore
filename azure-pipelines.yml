@@ -4,8 +4,6 @@ trigger:
 
 variables:
 - group: Azure-Shifatullah-Variables
-- name: one
-  value: initialValue 
 
 steps:
 - powershell: echo $(one)
