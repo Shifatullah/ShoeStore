@@ -1,15 +1,4 @@
 # Starter pipeline
-- task: AzureKeyVault@1
-  inputs:
-    azureSubscription: 'Pay-As-You-Go (3b9f2575-a5bf-4740-83da-d8f0efbd0613)'
-    KeyVaultName: 'shoestore-vault'
-    SecretsFilter: '*'
-    RunAsPreJob: false
-
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
 - master
 
@@ -17,6 +6,13 @@ variables:
 - group: Azure-Shifatullah-Variables
 
 steps:
+
+- task: AzureKeyVault@1
+  inputs:
+    azureSubscription: 'Pay-As-You-Go (3b9f2575-a5bf-4740-83da-d8f0efbd0613)'
+    KeyVaultName: 'shoestore-vault'
+    SecretsFilter: '*'
+    RunAsPreJob: false
 
 - script: echo 'Hello, world! $(test)'
   displayName: 'Run a one-line script'
