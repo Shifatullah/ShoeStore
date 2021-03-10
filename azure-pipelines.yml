@@ -6,6 +6,9 @@
 trigger:
 - master
 
+variables:
+- group: Azure-Shifatullah-Variables
+
 steps:
 - task: PowerShell@2
   displayName: 'Provision Azure resources'
@@ -13,8 +16,3 @@ steps:
     targetType: 'filePath'
     filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1'
     errorActionPreference: 'stop'
-  env:
-    Test: $(test)
-    AzureTenant: $(azure-tenant)
-    ShoeStoreId: $(shoestore-id)
-    ShoeStoreSecret: $(shoestore-secret)
