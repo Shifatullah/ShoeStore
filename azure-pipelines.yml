@@ -2,9 +2,6 @@
 trigger:
 - master
 
-variables:
-- group: Azure-Shifatullah-Variables
-
 steps:
 - task: PowerShell@2
   displayName: 'Provision Azure resources'
