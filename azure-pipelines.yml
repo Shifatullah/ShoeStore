@@ -2,6 +2,9 @@
 trigger:
 - master
 
+variables:
+- group: Azure-ShoeStore-Variable-Group
+
 steps:
 - task: PowerShell@2
   displayName: 'Provision Azure resources'
