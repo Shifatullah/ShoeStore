@@ -6,9 +6,6 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
-
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
@@ -21,5 +18,5 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'filePath'
-    filePath: 'ProvisionAzureResources.ps1'
+    filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1'
     errorActionPreference: 'stop'
