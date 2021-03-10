@@ -16,5 +16,4 @@ steps:
   displayName: 'Provision Azure resources'
   inputs:
     targetType: 'filePath'
-    filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1'
-    errorActionPreference: 'stop'
+    filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1'    
