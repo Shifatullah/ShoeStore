@@ -5,6 +5,8 @@ trigger:
 variables:
 - group: Azure-Shifatullah-Variables
 
+
+
 steps:
 - powershell: echo $(test)
 - powershell: echo $env:TEST
@@ -15,4 +17,6 @@ steps:
   displayName: 'Provision Azure resources'
   inputs:
     targetType: 'filePath'
-    filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1'    
+    filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1' 
+  env:
+    TEST: $(test)   
