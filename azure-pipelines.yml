@@ -8,7 +8,6 @@ variables:
 steps:
 - powershell: echo $(test)
 - powershell: echo $env:TEST
-- powershell: echo ${{ test }}
 - script: echo 'Hello, world! $(test) '
   displayName: 'Run a one-line script'
 
