@@ -8,8 +8,11 @@ variables:
 
 
 steps:
-- powershell: echo $(test)
-- powershell: echo $env:TEST
+- powershell: echo $(azure-tenant)
+- powershell: echo $env:TEST $env:AZURETENANT
+  env:
+    TEST: $(test)
+    AZURETENANT: $(azure-tenant) 
 - script: echo 'Hello, world! $(test) '
   displayName: 'Run a one-line script'
 
@@ -19,4 +22,5 @@ steps:
     targetType: 'filePath'
     filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1' 
   env:
-    TEST: $(test)   
+    TEST: $(test)
+    AZURETENANT: $(azure-tenant) 
