@@ -4,9 +4,11 @@ trigger:
 
 variables:
 - group: Azure-Shifatullah-Variables
+- name: one
+  value: initialValue 
 
 steps:
-- script: echo 'Hello, world! $(test) '
+- script: echo 'Hello, world! $(one) '
   displayName: 'Run a one-line script'
 
 - task: PowerShell@2
