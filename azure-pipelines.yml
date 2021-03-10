@@ -20,3 +20,7 @@ steps:
     targetType: 'filePath'
     filePath: 'Azure/PowerShell/ProvisionAzureResources.ps1'
     errorActionPreference: 'stop'
+  env:
+    AzureTenant: $(azure-tenant)
+    ShoeStoreId: $(shoestore-id)
+    ShoeStoreSecret: $(shoestore-client)
