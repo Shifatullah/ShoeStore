@@ -3,46 +3,41 @@
 [![Join the chat at https://gitter.im/ShoeStore/Lobby](https://badges.gitter.im/ShoeStore/Lobby.svg)](https://gitter.im/ShoeStore/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This project is under development.
-
-A test e-commerce application to demonstrate features of various development technologies.
-
-# Progress so far
+It is a test e-commerce application to demonstrate features of various development technologies.
 
 <a target="_blank" href="https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72">Frontend Wireframes</a>
 
-<a target="_blank" href="http://www.shifatullah.com/blog/IT/4?title=Using_CORS_to_enable_cross_domain_ASP.Net_forms_authentication">Using CORS to enable cross domain ASP.Net forms authentication</a>
-
 # Client Side Implementations
 
-# ASP.Net MVC Core
+### ASP.Net Core MVC
 
-| Component | Repository | Demo |
-|---|----|---|
-| Frontend | https://github.com/Shifatullah/shoestore-frontend-aspnetcore | |
-| Admin | https://github.com/shifatullah/shoestore-admin-aspnetcoremvc | |
+| Component | Repository | Demo | Comments
+|---|----|---|---|
+| Frontend | https://github.com/Shifatullah/shoestore-frontend-aspnetcore | | .Net Core 2.1, Home screen htmlization |
+| Admin | https://github.com/shifatullah/shoestore-admin-aspnetcoremvc | | |
 
-# Angular
+### Angular
 
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend | https://github.com/shifatullah/shoestore-frontend-angular | |
 | Admin | https://github.com/shifatullah/shoestore-admin-angular | |
 
-# React
+### React
 
 | Component | Repository | Demo | Image |
 |---|----|---|---|
 | Frontend | | | |
 | Admin | https://github.com/Shifatullah/shoestore-admin-reactjs | http://134.209.142.86 | https://hub.docker.com/r/shifatullah/shoestore-admin-reactjs |
 
-# Dot Net Framework
+### Dot Net Framework
 
 | Component | Repository | Demo |
 |---|----|---|
 | Frontend |  | |
 | Admin | https://github.com/Shifatullah/shoestore-backend-aspnetmvc | |
 
-# JEE (Containerless)
+### JEE (Containerless)
 
 | Component | Repository | Demo |
 |---|----|---|
@@ -51,7 +46,7 @@ A test e-commerce application to demonstrate features of various development tec
 
 # Server Side Implementations
 
-# Dot Net Core
+### Dot Net Core
 
 | Component | Repository | Demo |
 |---|----|---|
@@ -64,7 +59,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Api Gateway | https://github.com/shifatullah/shoestore-apigateway-ocelot | |
 | Ideneity Provider | https://github.com/shifatullah/shoestore-identity-identityserver | |
 
-# JEE (Containerless)
+### JEE (Containerless)
 
 | Component | Repository | Demo |
 |---|----|---|
@@ -75,7 +70,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Payments Api | | |
 | Notifications Api | | |
 
-# JEE (JBoss)
+### JEE (JBoss)
 
 | Component | Repository | Demo |
 |---|----|---|
@@ -86,7 +81,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Payments Api | | |
 | Notifications Api | | |
 
-# Spring MVC
+### Spring MVC
 
 | Component | Repository | Demo |
 |---|----|---|
@@ -97,7 +92,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Payments Api | | |
 | Notifications Api | | |
 
-# Express (NodeJS)
+### Express (NodeJS)
 
 | Component | Repository | Demo |
 |---|----|---|
@@ -108,7 +103,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Payments Api | | |
 | Notifications Api | | |
 
-# Django (Python)
+### Django (Python)
 
 | Component | Repository | Demo |
 |---|----|---|
@@ -119,7 +114,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Payments Api | | |
 | Notifications Api | | |
 
-# Laravel (PHP)
+### Laravel (PHP)
 
 | Component | Repository | Demo |
 |---|----|---|
@@ -130,7 +125,7 @@ A test e-commerce application to demonstrate features of various development tec
 | Payments Api | | |
 | Notifications Api | | |
 
-# Dot Net Framework
+### Dot Net Framework
 
 | Component | Repository | Demo |
 |---|----|---|
