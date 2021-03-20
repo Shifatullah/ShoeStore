@@ -9,6 +9,12 @@ It is a test e-commerce application to demonstrate features of various developme
 
 # Client Side Implementations
 
+### Postman
+
+| Component | Repository | Demo | Comments
+|---|----|---|---|
+|DotNetCore  | https://github.com/Shifatullah/shoestore-postman-dotnetcore | | |
+
 ### ASP.Net Core MVC
 
 | Component | Repository | Demo | Comments
