@@ -57,13 +57,13 @@ It is a test e-commerce application to demonstrate features of various developme
 | Component | Repository | Demo |
 |---|----|---|
 | Users Api | | |
-| Products Api | https://github.com/Shifatullah/shoestore-products-aspnetcore | |
-| Listing Api | | |
+| Products Api | https://github.com/shifatullah/shoestore-products-aspnetcore | |
+| Listing Api | https://github.com/shifatullah/shoestore-listing-aspnetcore | |
 | Basket Api | | |
-| Payments Api | | |
+| Payments Api | https://github.com/shifatullah/shoestore-payments-aspnetcore | |
 | Notifications Api | | |
 | Api Gateway | https://github.com/shifatullah/shoestore-apigateway-ocelot | |
-| Ideneity Provider | https://github.com/shifatullah/shoestore-identity-identityserver | |
+| Identity Provider | https://github.com/shifatullah/shoestore-identity-identityserver | |
 
 ### JEE (Containerless)
 
