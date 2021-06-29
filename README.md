@@ -5,9 +5,6 @@
 It is an under development e-commerce application to practice development on .Net Core technologies stack. \
 It follows microservices architectural style cloud native methodology built for running on Azure cloud platform.
 
-Idea is that every repo of this solution will have list of instructions which will be followed to build project. \
-It's at beginning stage, a long way to go, more than happy to recieve contributions from community.
-
 <a target="_blank" href="https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72">Frontend Wireframes</a>
 
 ReST APIs on PostMan https://github.com/Shifatullah/shoestore-postman-dotnetcore \
