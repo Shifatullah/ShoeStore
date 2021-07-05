@@ -7,6 +7,10 @@ It follows microservices architectural style cloud native methodology built for 
 
 Frontend Wireframes https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
 
+### Demo on Azure
+https://shoestore-frontend-aspnetcore-azure.azurewebsites.net
+https://shoestore-admin-angular-azure.azurewebsites.net
+
 ### Azure Implementation
 
 Products Api https://github.com/shifatullah/shoestore-products-aspnetcore-azure
