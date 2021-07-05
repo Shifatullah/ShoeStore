@@ -10,6 +10,7 @@ Frontend Wireframes https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9d
 ### Azure Implementation
 
 Products Api https://github.com/shifatullah/shoestore-products-aspnetcore-azure
+Listing Api https://github.com/shifatullah/shoestore-listing-aspnetcore-azure \
 
 ### On Premise Implementation
 
@@ -17,7 +18,6 @@ ReST APIs on PostMan https://github.com/Shifatullah/shoestore-postman-dotnetcore
 Store https://github.com/Shifatullah/shoestore-frontend-aspnetcore \
 Admin https://github.com/shifatullah/shoestore-admin-angular \
 Products Api https://github.com/shifatullah/shoestore-products-aspnetcore \
-Listing Api https://github.com/shifatullah/shoestore-listing-aspnetcore \
 Basket Api \
 Payments Api https://github.com/shifatullah/shoestore-payments-aspnetcore \
 Orders Api \
