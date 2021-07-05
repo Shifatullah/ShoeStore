@@ -14,6 +14,8 @@ Frontend Wireframes https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9d
 
 ### Azure Repos
 
+[Frontend](https://github.com/shifatullah/shoestore-frontend-aspnetcore-azure) \
+[Admin](https://github.com/shifatullah/shoestore-admin-angular-azure) \
 [Products Api](https://github.com/shifatullah/shoestore-products-aspnetcore-azure) \
 [Listing Api](https://github.com/shifatullah/shoestore-listing-aspnetcore-azure) 
 
