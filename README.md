@@ -5,7 +5,10 @@
 It is an under development e-commerce application to practice development on .Net Core technologies stack. \
 It follows microservices architectural style cloud native methodology built for running on Azure cloud platform.
 
-Frontend Wireframes https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72
+### Resources
+
+[Data Model](https://github.com/shifatullah/ShoeStore/wiki/Data-Model)
+[Wireframes](https://app.moqups.com/shifatullah/ZiU0oVmTf5/view/page/aa9df7b72)
 
 ### Demo on Azure
 [ShoeStore](https://shoestore-frontend-aspnetcore-azure.azurewebsites.net) \
